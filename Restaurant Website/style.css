@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-logo-img{
+  height: 40px;
+}
+
+.nav-items ul{
+  display: flex;
+}
+
+.nav-list-items {
+  text-decoration: none;
+  list-style: none;
+  font-size: 17px;
+  padding-left: 40px;
+  color: #faa60ad0;
+  font-weight: bold;
+}
+
+.nav-list-items:hover{
+  cursor: pointer;
+  text-decoration: underline; 
+}
+
+.nav-button{
+  background-color: #fd5b69;
+  color: white;
+  height: 40px;
+  width: 110px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #fd5b69;
+}
+
+.main-heading{
+  color: #ffc233;
+  margin-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.main-button{
+  background-color: #fd5b69;
+  color: white;
+  height: 50px;
+  width: 210px;
+  border: none;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.main-button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #fd5b69;
+}
+
+.scroll-logo{
+  float:right;
+  position: relative;
+  top: 4rem;
+  right: 25px;
+}
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+body{
+  background-image: linear-gradient(#000000b3, #000000b3), url("./Assets/background-img.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
